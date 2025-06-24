@@ -15,15 +15,25 @@ This project focuses on recognizing emotions conveyed in speech using deep learn
 ☑️ **Note**: The *Neutral* class was intentionally **excluded** from training due to its persistent low per-class accuracy (below 75%), which negatively impacted overall model performance.
 
 ✅ Overall Accuracy: 82.86290322580645
+
 ✅ Weighted F1 Score: 82.7966227377242
+
 ✅ Per Class Accuracy:
+
    0: 90.79%
+   
    1: 94.74%
+   
    2: 79.49%
+   
    3: 76.32%
+   
    4: 81.58%
+   
    5: 68.42% -----  Neutral
+   
    6: 78.95%
+   
    7: 84.62%
 
 ---
@@ -82,14 +92,23 @@ This project focuses on recognizing emotions conveyed in speech using deep learn
 ### Example per-class breakdown:
 
 ✅ Overall Accuracy: 83.4061135371179
+
 ✅ Weighted F1 Score: 83.41116487853209
+
 ✅ Per Class Accuracy:
+
    0: 89.47%
+   
    1: 96.05%
+   
    2: 89.74%
+   
    3: 76.32%
+   
    4: 77.63%
+   
    5: 77.63%
+   
    6: 76.92%
 
 
