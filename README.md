@@ -157,6 +157,11 @@ streamlit run web-app.py
   - Show the predicted **emotion**
   - Display use cases and tech stack in a beautiful UI
 
+### Online Deployment with Streamlit
+
+The app is deployed online with streamlit at:
+https://amazess.streamlit.app/
+
 ##  Acknowledgements
 
 - [RAVDESS Dataset](https://zenodo.org/record/1188976)
