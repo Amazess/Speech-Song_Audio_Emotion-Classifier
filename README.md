@@ -117,12 +117,19 @@ This project focuses on recognizing emotions conveyed in speech using deep learn
  speech-emotion-recognizer/
 
 ├── web-app.py                   # Streamlit frontend
+
 ├── Main.py                      # Model + predict logic
+
 ├── final_emotion_model.pth      # Trained PyTorch model
+
 ├── Bg_image.jpg                 # Background image for web-app
+
 ├── MAIN_MODEL.ipynb             # Jupyter Notebook with model training
+
 ├── DEMO_VIDEO.mp4               # 2 min Video showing the use of the app
+
 ├── requirements.txt             # Python dependencies
+
 └── README.md                    # This file
 
 ## TECH STACK
