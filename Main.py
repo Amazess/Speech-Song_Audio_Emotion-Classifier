@@ -96,10 +96,10 @@ def predict_emotion(file_path, model_path='final_emotion_model.pth'):
 
 # FOR TESTING
 
-if __name__ == '__main__':
-    file_path = "03-02-06-02-02-02-21.wav"
-    result = predict_emotion(file_path)
-    print("Predicted Emotion:", result)
+# if __name__ == '__main__':
+#     file_path = "03-02-06-02-02-02-21.wav"
+#     result = predict_emotion(file_path)
+#     print("Predicted Emotion:", result)
 
 #Emotion (02 = calm, 03 = happy, 04 = sad, 05 = angry, 06 = fearful, 07 = disgust, 08 = surprised).
 
@@ -136,5 +136,3 @@ def predict_emotion_from_uploaded_file(uploaded_file, model_path='final_emotion_
     }
 
     return label_map[predicted]
-
-#Emotion (02 = calm, 03 = happy, 04 = sad, 05 = angry, 06 = fearful, 07 = disgust, 08 = surprised).
